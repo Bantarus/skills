@@ -10,34 +10,336 @@
   },
   "plugins": [
     {
-      "name": "document-skills",
-      "description": "Collection of document processing suite including Excel, Word, PowerPoint, and PDF capabilities",
+      "name": "adobe-react-spectrum-design",
+      "description": "Implement professional Adobe-style UI with React Spectrum v3.45.0. Use when building accessible UI components, implementing dark mode, creating professional creative tool aesthetics, ensuring WCAG 2.1 AA compliance, or designing desktop application interfaces.",
       "source": "./",
       "strict": false,
       "skills": [
-        "./document-skills/xlsx",
-        "./document-skills/docx",
-        "./document-skills/pptx",
+        "./adobe-react-spectrum-design"
+      ]
+    },
+    {
+      "name": "algorithmic-art",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./algorithmic-art"
+      ]
+    },
+    {
+      "name": "artifacts-builder",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./artifacts-builder"
+      ]
+    },
+    {
+      "name": "brand-guidelines",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./brand-guidelines"
+      ]
+    },
+    {
+      "name": "canvas-design",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./canvas-design"
+      ]
+    },
+    {
+      "name": "comfyui-integration",
+      "description": "Integrate ComfyUI as primary inference engine via API with GPL licensing safety. Use when implementing ComfyUI workflows, managing custom nodes with permissive licenses, optimizing inference performance, handling GGUF models, or maintaining API-only separation for GPL compliance.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./comfyui-integration"
+      ]
+    },
+    {
+      "name": "cross-platform-deployment",
+      "description": "Package and distribute desktop AI application for Windows, macOS, and Linux with code signing. Use when configuring Tauri bundlers (MSI/DMG/AppImage/DEB/RPM), implementing code signing (Authenticode, Apple notarization), managing CUDA dependencies per platform, testing installers on clean VMs, or preparing production releases.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cross-platform-deployment"
+      ]
+    },
+    {
+      "name": "decomposed-prompting-system",
+      "description": "Build UI-driven prompt generation system that hides complexity from users for miniature painting workflows. Use when implementing component breakdown UI (sliders, dropdowns, color pickers), creating prompt templates, upsampling simple inputs to token-dense prompts, implementing textual inversion for prompt sliders, or generating context-rich prompts from UI state.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./decomposed-prompting-system"
+      ]
+    },
+    {
+      "name": "docx",
+      "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./document-skills/docx"
+      ]
+    },
+    {
+      "name": "dotween-pro",
+      "description": "Comprehensive guide for implementing DOTween Pro in Unity 6.2 projects. Use when working with Unity animations, tweening, or when the user requests smooth interpolations, animations, sequences, paths, or DOTween-related features. Covers initialization, tweeners, sequences, settings, callbacks, control methods, coroutines, async/await, and editor components.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./dotween-pro"
+      ]
+    },
+    {
+      "name": "edgetam-segmentation",
+      "description": "Comprehensive skill for EdgeTAM (Edge Track Anything Model) integration focusing on promptable image and video segmentation with multiple bounding box instances, point-based prompts, and real-time object tracking. This skill should be used when implementing efficient on-device segmentation, tracking objects across video frames, or performing batch segmentation with multiple objects using the yonigozlan/EdgeTAM-hf HuggingFace model.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./edgetam-segmentation"
+      ]
+    },
+    {
+      "name": "flux-kontext-model",
+      "description": "Integrate FLUX.1 Kontext (12B parameters) for stable aspect ratio image editing with context preservation. Use when implementing in-context editing, multi-image control, prompt engineering for FLUX, GGUF quantization for FLUX models, or optimizing inference performance for miniature painting workflows.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./flux-kontext-model"
+      ]
+    },
+    {
+      "name": "frontend-design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./frontend-design"
+      ]
+    },
+    {
+      "name": "gguf-quantization",
+      "description": "Quantize and optimize diffusion models using GGUF format for reduced VRAM usage via llama.cpp. Use when converting SafeTensors to GGUF, selecting quantization levels (Q2_K to Q8_K), optimizing VRAM requirements for RTX GPUs, integrating with ComfyUI-GGUF nodes, or balancing quality vs. performance tradeoffs.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./gguf-quantization"
+      ]
+    },
+    {
+      "name": "huggingface-diffusers",
+      "description": "Implement fallback inference engine using Diffusers v0.35.2 for programmatic control and GPL-free deployment. Use when implementing DiffusionPipeline, loading models with from_pretrained, optimizing schedulers, managing LoRA adapters, or requiring Apache 2.0 licensed alternative to ComfyUI.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./huggingface-diffusers"
+      ]
+    },
+    {
+      "name": "internal-comms",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./internal-comms"
+      ]
+    },
+    {
+      "name": "litert-flutter-integration",
+      "description": "Integrate LiteRT Next (v2) with Flutter applications for object detection and segmentation using platform channels on Android. Use this skill when implementing TFLite models in Flutter apps, setting up Android Kotlin native code bridges, or building real-time ML inference features with hardware acceleration support.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./litert-flutter-integration"
+      ]
+    },
+    {
+      "name": "material-design-3-flutter",
+      "description": "Comprehensive guide for building Flutter applications with Material Design 3 (Material You). This skill should be used when developing Flutter apps with Material 3 components, implementing adaptive and responsive layouts, applying Material Design theming and color schemes, or building Android applications using the complete Material widget catalog. Covers layout patterns, interactive widgets, forms, navigation, and best practices for Material 3 implementation.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./material-design-3-flutter"
+      ]
+    },
+    {
+      "name": "mcp-builder",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./mcp-builder"
+      ]
+    },
+    {
+      "name": "model-distribution-management",
+      "description": "Manage large model file distribution (7-20GB) using Tauri resources and on-demand downloading. Use when bundling models with installers, implementing progressive downloads with checksum validation, managing platform-specific cache locations, or verifying model integrity for desktop AI applications.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./model-distribution-management"
+      ]
+    },
+    {
+      "name": "objectbox",
+      "description": "This skill should be used when working with ObjectBox (version 5.0.1), an on-device NoSQL database with vector search capabilities. Use this skill for tasks involving local data persistence, vector embeddings, semantic search, HNSW indexing, RAG (Retrieval-Augmented Generation) applications, or on-device AI with Flutter/Dart, Python, Java/Kotlin, Swift, Go, or C/C++. Especially relevant for mobile, IoT, and edge computing scenarios requiring offline-first functionality and efficient vector similarity searches.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./objectbox"
+      ]
+    },
+    {
+      "name": "pdf",
+      "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
+      "source": "./",
+      "strict": false,
+      "skills": [
         "./document-skills/pdf"
       ]
     },
     {
-      "name": "example-skills",
-      "description": "Collection of example skills demonstrating various capabilities including skill creation, MCP building, visual design, algorithmic art, internal communications, web testing, artifact building, Slack GIFs, and theme styling",
+      "name": "pptx",
+      "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks",
       "source": "./",
       "strict": false,
       "skills": [
-        "./algorithmic-art",
-        "./artifacts-builder",
-        "./brand-guidelines",
-        "./canvas-design",
-        "./frontend-design",
-        "./internal-comms",
-        "./mcp-builder",
-        "./skill-creator",
-        "./slack-gif-creator",
-        "./theme-factory",
+        "./document-skills/pptx"
+      ]
+    },
+    {
+      "name": "pyinstaller-ml-packaging",
+      "description": "Package Python ML backend as standalone sidecar executable with PyInstaller v6.16.0. Use when bundling PyTorch/Diffusers dependencies, creating one-folder distributions, including CUDA libraries, optimizing bundle size, or preparing ML backends for desktop deployment.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./pyinstaller-ml-packaging"
+      ]
+    },
+    {
+      "name": "pyo3-rust-python-bindings",
+      "description": "Create zero-overhead Rust-Python communication for Tauri-Python IPC using PyO3 v0.27.1. Use when calling Python from Rust, managing GIL safely, converting types between Rust and Python, handling async Python from Rust, or implementing Tauri commands that invoke ML backends.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./pyo3-rust-python-bindings"
+      ]
+    },
+    {
+      "name": "python-desktop-ml-backend",
+      "description": "Leverage Python 3.13 features for ML backend development in desktop applications. Use when implementing ML inference backends, utilizing JIT compiler and free-threaded mode, managing async operations for non-blocking inference, configuring virtual environments, or optimizing Python performance for AI workloads.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./python-desktop-ml-backend"
+      ]
+    },
+    {
+      "name": "pytorch-desktop-inference",
+      "description": "Optimize PyTorch v2.9.0 inference for desktop deployment with quantization and memory management. Use when implementing ML model inference, optimizing CUDA performance, managing GPU memory, applying torch.compile() JIT, configuring quantization, or benchmarking model performance for desktop applications.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./pytorch-desktop-inference"
+      ]
+    },
+    {
+      "name": "qwen-image-edit",
+      "description": "Implement Qwen-Image-Edit v2509 for text rendering and multi-image editing with limitations disclosure. Use when implementing Chinese/English text rendering on miniatures, multi-image editing (person+scene), product consistency, or meme creation, while disclosing known aspect ratio and alignment limitations to users.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./qwen-image-edit"
+      ]
+    },
+    {
+      "name": "react-typescript-development",
+      "description": "Build complex stateful user interfaces with React 18 and TypeScript 5.x for desktop applications. This skill should be used when creating React components with TypeScript, implementing state management, leveraging React 18 concurrent features, configuring TypeScript strict mode, optimizing React performance, or building type-safe component libraries.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./react-typescript-development"
+      ]
+    },
+    {
+      "name": "skill-creator",
+      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skill-creator"
+      ]
+    },
+    {
+      "name": "slack-gif-creator",
+      "description": "Toolkit for creating animated GIFs optimized for Slack, with validators for size constraints and composable animation primitives. This skill applies when users request animated GIFs or emoji animations for Slack from descriptions like \"make me a GIF for Slack of X doing Y\".",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./slack-gif-creator"
+      ]
+    },
+    {
+      "name": "tauri-desktop-framework",
+      "description": "Guide development of cross-platform desktop applications using Tauri v2.x. This skill should be used when building desktop applications with minimal memory footprint (critical for AI/ML workloads), implementing Rust backend commands, configuring IPC communication, setting up window management, or preparing applications for distribution via MSI/DMG/AppImage installers.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./tauri-desktop-framework"
+      ]
+    },
+    {
+      "name": "tauri-react-integration",
+      "description": "Integrate Tauri backend with React frontend via IPC. Use when implementing command invocation from React, handling Tauri events in React components, streaming progress updates, managing async operations, syncing frontend-backend state, or building type-safe IPC layers.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./tauri-react-integration"
+      ]
+    },
+    {
+      "name": "theme-factory",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./theme-factory"
+      ]
+    },
+    {
+      "name": "unity-ui-toolkit",
+      "description": "This skill should be used when working with Unity 6.2 UI Toolkit (UIElements) for creating user interfaces, including UXML structure, USS styling, C# scripting, visual elements, event handling, data binding, and UI Builder workflows. Use this skill for runtime UI, editor extensions, debugging UI, and any UI-related development in Unity projects.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./unity-ui-toolkit"
+      ]
+    },
+    {
+      "name": "webapp-testing",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "source": "./",
+      "strict": false,
+      "skills": [
         "./webapp-testing"
+      ]
+    },
+    {
+      "name": "xlsx",
+      "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./document-skills/xlsx"
       ]
     }
   ]
