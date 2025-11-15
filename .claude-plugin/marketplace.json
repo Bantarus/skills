@@ -316,6 +316,15 @@
       ]
     },
     {
+      "name": "threejs",
+      "description": "Comprehensive guide for implementing Three.js (r181) in web applications. Use when creating 3D graphics, WebGL applications, interactive visualizations, or when implementing animations, cameras, renderers, geometries, materials, lighting, textures, audio, physics, controls, or any Three.js-related features. This skill is web technology agnostic and covers core API, addons, nodes, and WebGPU support.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./threejs"
+      ]
+    },
+    {
       "name": "unity-ui-toolkit",
       "description": "This skill should be used when working with Unity 6.2 UI Toolkit (UIElements) for creating user interfaces, including UXML structure, USS styling, C# scripting, visual elements, event handling, data binding, and UI Builder workflows. Use this skill for runtime UI, editor extensions, debugging UI, and any UI-related development in Unity projects.",
       "source": "./",
