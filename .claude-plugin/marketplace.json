@@ -109,6 +109,69 @@
       ]
     },
     {
+      "name": "flutter-asset-codegen",
+      "description": "Comprehensive guide for implementing type-safe asset management in Flutter using flutter_gen and build_runner for code generation. This skill should be used when setting up asset management, eliminating string-based asset references, ensuring compile-time asset validation, or building professional Flutter applications with reliable asset access. Covers flutter_gen configuration, build_runner usage, generated API access, and integration with images, fonts, colors, and shaders.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./flutter-asset-codegen"
+      ]
+    },
+    {
+      "name": "flutter-custom-painter",
+      "description": "Comprehensive guide for creating custom graphics and shapes using Flutter's CustomPainter and Canvas APIs. This skill should be used when implementing custom drawings, complex shapes, procedural graphics, or low-level rendering that goes beyond standard Flutter widgets. Covers CustomPainter implementation, Canvas API, Paint configuration, efficient repainting, and performance optimization for custom graphics.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./flutter-custom-painter"
+      ]
+    },
+    {
+      "name": "flutter-explicit-animations",
+      "description": "Comprehensive guide for implementing explicit animations in Flutter using AnimationController, Tween, and CurvedAnimation. This skill should be used when creating custom animations, complex motion sequences, coordinated multi-property animations, or any animation requiring precise timing control. Covers AnimationController lifecycle, Tween configuration, Material Motion 3 curves, AnimatedBuilder optimization, and advanced animation patterns.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./flutter-explicit-animations"
+      ]
+    },
+    {
+      "name": "flutter-fragment-shaders",
+      "description": "Comprehensive guide for writing and using GLSL fragment shaders in Flutter for GPU-accelerated graphics. This skill should be used when implementing advanced visual effects, procedural graphics, GPU-based animations, or custom shader-based rendering. Covers GLSL shader authoring, FragmentProgram API, uniform configuration, shader compilation, integration with CustomPainter, and performance optimization.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./flutter-fragment-shaders"
+      ]
+    },
+    {
+      "name": "flutter-mvvm-architecture",
+      "description": "Comprehensive guide for implementing Model-View-ViewModel (MVVM) architecture in Flutter with ChangeNotifier and Provider for state management. This skill should be used when structuring Flutter applications for scalability, testability, and separation of concerns, or when managing complex application state. Covers MVVM pattern implementation, ChangeNotifier usage, Provider integration, dependency injection, and architectural best practices.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./flutter-mvvm-architecture"
+      ]
+    },
+    {
+      "name": "flutter-performance-optimization",
+      "description": "Comprehensive guide for optimizing Flutter application performance to achieve smooth 60fps (or 120fps) rendering. This skill should be used when addressing performance issues, frame drops (jank), slow build times, or optimizing for production deployment. Covers the 16ms frame budget, build() optimization, efficient rendering, RepaintBoundary usage, profiling with DevTools, and best practices for maintaining optimal performance.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./flutter-performance-optimization"
+      ]
+    },
+    {
+      "name": "flutter-widget-previewer",
+      "description": "Comprehensive guide for using the Flutter Widget Previewer tool (Flutter 3.35+). This skill should be used when visualizing Flutter widgets in isolation, creating widget galleries, testing components across different themes and locales, or working with the @Preview annotation API. Covers setup, annotation usage, theme variants, localization testing, context injection, and IDE integration for real-time widget rendering.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./flutter-widget-previewer"
+      ]
+    },
+    {
       "name": "flux-kontext-model",
       "description": "Integrate FLUX.1 Kontext (12B parameters) for stable aspect ratio image editing with context preservation. Use when implementing in-context editing, multi-image control, prompt engineering for FLUX, GGUF quantization for FLUX models, or optimizing inference performance for miniature painting workflows.",
       "source": "./",
